@@ -28,5 +28,5 @@ model = Model(inputs=imageInput, outputs=softmax)
 model.compile(optimizer='sgd', loss=CategoricalCrossentropy())
 
 print(model.summary())
-# plot graph
+
 
